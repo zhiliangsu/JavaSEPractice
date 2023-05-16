@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaMicroservices/JavaMicroservices.iml" filepath="$PROJECT_DIR$/JavaMicroservices/JavaMicroservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaPractice.iml" filepath="$PROJECT_DIR$/JavaPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaSE/JavaSE.iml" filepath="$PROJECT_DIR$/JavaSE/JavaSE.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaSSM/JavaSSM.iml" filepath="$PROJECT_DIR$/JavaSSM/JavaSSM.iml" />

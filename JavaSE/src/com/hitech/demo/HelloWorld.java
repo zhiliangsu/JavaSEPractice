@@ -1,4 +1,4 @@
-package com.neotech.demo;
+package com.hitech.demo;
 
 public class HelloWorld {
     public static void main(String[] args) {
