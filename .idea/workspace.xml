@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db032fd-a3d8-4d15-a3e9-6cc062877ad2" name="更改" comment="day04代码：流程控制语句练习">
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day05_code/arraydemo/ArrayDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day05_code/test/ArrayTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day05_code/test/ArrayTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day05_code/test/ArrayTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day05_code/test/ArrayTest4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day05_code/test/LoopTest4.java" afterDir="false" />
+    <list default="true" id="3db032fd-a3d8-4d15-a3e9-6cc062877ad2" name="更改" comment="day06&amp;day07代码：方法练习&amp;综合练习">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day07_code/lottery/Test11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day07_code/test/TwoDimensionDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day05_code/test/LoopTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day05_code/test/LoopTest3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +51,7 @@
     "project.structure.last.edited": "问题",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editing.templates",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -63,14 +59,17 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\szl\IdeaProjects\JavaPractice" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hitech.day07_code.test" />
+    </key>
   </component>
-  <component name="RunManager" selected="应用程序.ArrayTest4">
-    <configuration name="ArrayTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day05_code.test.ArrayTest1" />
+  <component name="RunManager" selected="应用程序.TwoDimensionDemo">
+    <configuration name="Test11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day07_code.lottery.Test11" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day05_code.test.*" />
+          <option name="PATTERN" value="com.hitech.day07_code.lottery.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day05_code.test.ArrayTest2" />
+    <configuration name="Test7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day07_code.test.Test7" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day05_code.test.*" />
+          <option name="PATTERN" value="com.hitech.day07_code.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day05_code.test.ArrayTest3" />
+    <configuration name="Test8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day07_code.test.Test8" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day05_code.test.*" />
+          <option name="PATTERN" value="com.hitech.day07_code.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day05_code.test.ArrayTest4" />
+    <configuration name="Test9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day07_code.test.Test9" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day05_code.test.*" />
+          <option name="PATTERN" value="com.hitech.day07_code.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day05_code.test.LoopTest4" />
+    <configuration name="TwoDimensionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day07_code.test.TwoDimensionDemo" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day05_code.test.*" />
+          <option name="PATTERN" value="com.hitech.day07_code.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.ArrayTest4" />
-        <item itemvalue="应用程序.ArrayTest3" />
-        <item itemvalue="应用程序.ArrayTest2" />
-        <item itemvalue="应用程序.ArrayTest1" />
-        <item itemvalue="应用程序.LoopTest4" />
+        <item itemvalue="应用程序.TwoDimensionDemo" />
+        <item itemvalue="应用程序.Test11" />
+        <item itemvalue="应用程序.Test9" />
+        <item itemvalue="应用程序.Test8" />
+        <item itemvalue="应用程序.Test7" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +150,14 @@
       <workItem from="1684153904454" duration="2377000" />
       <workItem from="1684221100337" duration="10965000" />
       <workItem from="1684285779922" duration="10244000" />
-      <workItem from="1684310747841" duration="3658000" />
+      <workItem from="1684310747841" duration="26818000" />
+      <workItem from="1684457745509" duration="908000" />
+      <workItem from="1684463118141" duration="71000" />
+      <workItem from="1684463202594" duration="2025000" />
+      <workItem from="1684465248998" duration="288000" />
+      <workItem from="1684465551887" duration="798000" />
+      <workItem from="1684466361316" duration="3891000" />
+      <workItem from="1684477860522" duration="8070000" />
     </task>
     <task id="LOCAL-00001" summary="first commit：创建JavaSE/JavaWeb/JavaSSM模块">
       <created>1684154283866</created>
@@ -174,7 +180,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684237934986</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="day05代码：数组和高级循环练习">
+      <created>1684371723204</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684371723204</updated>
+    </task>
+    <task id="LOCAL-00005" summary="day06&amp;day07代码：方法练习&amp;综合练习">
+      <created>1684421835715</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684421835715</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +215,9 @@
     <MESSAGE value="first commit：创建JavaSE/JavaWeb/JavaSSM模块" />
     <MESSAGE value="add first sample and gitignore file." />
     <MESSAGE value="day04代码：流程控制语句练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="day04代码：流程控制语句练习" />
+    <MESSAGE value="day05代码：数组和高级循环练习" />
+    <MESSAGE value="day06&amp;day07代码：方法练习&amp;综合练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="day06&amp;day07代码：方法练习&amp;综合练习" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
