@@ -4,24 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db032fd-a3d8-4d15-a3e9-6cc062877ad2" name="更改" comment="day08代码：面向对象练习1">
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/fight1/FightTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/fight1/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/fight2/FightTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/fight2/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test3/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test3/GoodsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test4/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test4/CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test5/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test5/PhoneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test6/GirlFriend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test6/GirlFriendTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test7/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test7/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test7/StudentTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test7/StudentTest3.java" afterDir="false" />
+    <list default="true" id="3db032fd-a3d8-4d15-a3e9-6cc062877ad2" name="更改" comment="day09代码：面向对象综合训练">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/fight1/FightTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_oop2/fight1/FightTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/fight1/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_oop2/fight1/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/fight2/FightTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_oop2/fight2/FightTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/fight2/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_oop2/fight2/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test3/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_oop2/test3/Goods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test3/GoodsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_oop2/test3/GoodsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test4/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_oop2/test4/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test4/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_oop2/test4/CarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test5/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_oop2/test5/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test5/PhoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_oop2/test5/PhoneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test6/GirlFriend.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_oop2/test6/GirlFriend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test6/GirlFriendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_oop2/test6/GirlFriendTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test7/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_oop2/test7/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test7/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_oop2/test7/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test7/StudentTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_oop2/test7/StudentTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_code/test7/StudentTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day09_oop2/test7/StudentTest3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +79,13 @@
       <recent name="com.hitech.day07_code.test" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.StudentTest3">
-    <configuration name="GirlFriendTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day09_code.test6.GirlFriendTest" />
+  <component name="RunManager" selected="应用程序.FightTest2">
+    <configuration name="FightTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day09_oop2.fight1.FightTest1" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day09_code.test6.*" />
+          <option name="PATTERN" value="com.hitech.day09_oop2.fight1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day09_code.test5.PhoneTest" />
+    <configuration name="FightTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day09_oop2.fight2.FightTest2" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day09_code.test5.*" />
+          <option name="PATTERN" value="com.hitech.day09_oop2.fight2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +107,11 @@
       </method>
     </configuration>
     <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day09_code.test7.StudentTest" />
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day09_oop2.test7.StudentTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day09_code.test7.*" />
+          <option name="PATTERN" value="com.hitech.day09_oop2.test7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +120,11 @@
       </method>
     </configuration>
     <configuration name="StudentTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day09_code.test7.StudentTest2" />
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day09_oop2.test7.StudentTest2" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day09_code.test7.*" />
+          <option name="PATTERN" value="com.hitech.day09_oop2.test7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +133,11 @@
       </method>
     </configuration>
     <configuration name="StudentTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day09_code.test7.StudentTest3" />
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day09_oop2.test7.StudentTest3" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day09_code.test7.*" />
+          <option name="PATTERN" value="com.hitech.day09_oop2.test7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.FightTest2" />
+        <item itemvalue="应用程序.FightTest1" />
         <item itemvalue="应用程序.StudentTest3" />
         <item itemvalue="应用程序.StudentTest2" />
         <item itemvalue="应用程序.StudentTest" />
-        <item itemvalue="应用程序.GirlFriendTest" />
-        <item itemvalue="应用程序.PhoneTest" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +174,7 @@
       <workItem from="1684465551887" duration="798000" />
       <workItem from="1684466361316" duration="3891000" />
       <workItem from="1684477860522" duration="24651000" />
-      <workItem from="1684583403574" duration="3201000" />
+      <workItem from="1684583403574" duration="3920000" />
     </task>
     <task id="LOCAL-00001" summary="first commit：创建JavaSE/JavaWeb/JavaSSM模块">
       <created>1684154283866</created>
@@ -225,7 +225,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684497662395</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="day09_代码：面向对象综合训练">
+      <created>1684586833455</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684586833455</updated>
+    </task>
+    <task id="LOCAL-00009" summary="day09代码：面向对象综合训练">
+      <created>1684586855497</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684586855497</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +263,9 @@
     <MESSAGE value="day05代码：数组和高级循环练习" />
     <MESSAGE value="day06&amp;day07代码：方法练习&amp;综合练习" />
     <MESSAGE value="day08代码：面向对象练习1" />
-    <option name="LAST_COMMIT_MESSAGE" value="day08代码：面向对象练习1" />
+    <MESSAGE value="day09_代码：面向对象综合训练" />
+    <MESSAGE value="day09代码：面向对象综合训练" />
+    <option name="LAST_COMMIT_MESSAGE" value="day09代码：面向对象综合训练" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
