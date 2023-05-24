@@ -199,8 +199,8 @@ public class App {
     public static boolean checkUserInfo(ArrayList<User> list, User userInfo) {
         for (int i = 0; i < list.size(); i++) {
             User user = list.get(i);
-            if (userInfo.getUsername().equals(user.getUsername()) &&
-                    userInfo.getPassword().equals(user.getPassword())) {
+            if (user.getUsername().equals(userInfo.getUsername()) &&
+                    user.getPassword().equals(userInfo.getPassword())) {
                 return true;
             }
         }
@@ -284,7 +284,7 @@ public class App {
         }
         // 最后一位可以是数字也可以是大写X或小写x
         char lastChar = personID.charAt(personID.length() - 1);
-        if (lastChar >= '0' && lastChar <= '9' || lastChar == 'X' || lastChar == 'x') {
+        if ((lastChar >= '0' && lastChar <= '9') || (lastChar == 'X') || (lastChar == 'x')) {
             return true;
         } else {
             return false;
