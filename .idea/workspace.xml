@@ -4,7 +4,63 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db032fd-a3d8-4d15-a3e9-6cc062877ad2" name="更改" comment="day14代码: 面向对象进阶2练习-&gt;多态&amp;包&amp;final&amp;权限修饰符&amp;代码块,以及重命名部分包名" />
+    <list default="true" id="3db032fd-a3d8-4d15-a3e9-6cc062877ad2" name="更改" comment="day14代码: 面向对象进阶2练习-&gt;多态&amp;包&amp;final&amp;权限修饰符&amp;代码块,以及重命名部分包名">
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p01abstract/a01abstractdemo1/ATeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p01abstract/a01abstractdemo1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p01abstract/a01abstractdemo1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p01abstract/a01abstractdemo1/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p01abstract/a01abstractdemo1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p01abstract/a02abstractdemo2/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p01abstract/a02abstractdemo2/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p01abstract/a02abstractdemo2/Frog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p01abstract/a02abstractdemo2/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p01abstract/a02abstractdemo2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p01abstract/demo1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p01abstract/demo1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/aaa/Inter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/aaa/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/aaa/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo1/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo1/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo1/Frog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo1/Rabbit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo1/Swim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo2/Inter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo2/InterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo3/Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo3/Inter1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo3/Inter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo4/Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo4/Inter1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo4/Inter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo4/Inter3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo5/Athlete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo5/BasketballAthlete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo5/BasketballCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo5/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo5/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo5/PingPongAthlete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo5/PingPongCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo5/SpeakEnglish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo5/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo6/InterA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo6/InterB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo6/InterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo6/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo7/Inter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo7/InterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo7/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo8/InterA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo8/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo9/Inter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo9/InterAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface/demo9/InterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p03innerclass/demo1/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day15_oopadvanced3/p03innerclass/demo1/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +69,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -38,7 +95,7 @@
     "full.screen.before.presentation.mode": "false",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "temurin-17",
-    "last_opened_file_path": "C:/Users/szl/IdeaProjects/JavaPractice/JavaSE/src/com/hitech/day14_oopadvanced2/p05codeblock",
+    "last_opened_file_path": "C:/Users/szl/IdeaProjects/JavaPractice/JavaSE/src/com/hitech/day15_oopadvanced3/p02interface",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,11 +110,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day15_oopadvanced3\p02interface" />
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day15_oopadvanced3\p02interface\demo1" />
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day15_oopadvanced3\p01abstract\demo1" />
       <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day14_oopadvanced2\p05codeblock" />
       <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day14_oopadvanced2\p04jurisdiction" />
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day14_oopadvanced2\p03final" />
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day14_oopadvanced2\p02package" />
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day14_oopadvanced2\polymorphism\demo3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day13_oopadvanced1" />
@@ -69,13 +126,13 @@
       <recent name="com.hitech.day07_code.test" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Test">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day14_oopadvanced2.p01polymorphism.demo4.Test" />
+  <component name="RunManager" selected="应用程序.com.hitech.day15_oopadvanced3.p03innerclass.demo1.Test">
+    <configuration name="com.hitech.day15_oopadvanced3.p02interface.aaa.Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day15_oopadvanced3.p02interface.aaa.Test" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day14_oopadvanced2.p01polymorphism.demo4.*" />
+          <option name="PATTERN" value="com.hitech.day15_oopadvanced3.p02interface.aaa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.hitech.day13_oopadvanced1.p02_extendsdemo.b03extendsdemo10.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day13_oopadvanced1.p02_extendsdemo.b03extendsdemo10.Test" />
+    <configuration name="com.hitech.day15_oopadvanced3.p02interface.aaa.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day15_oopadvanced3.p02interface.aaa.Test" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day13_oopadvanced1.p02_extendsdemo.b03extendsdemo10.*" />
+          <option name="PATTERN" value="com.hitech.day15_oopadvanced3.p02interface.aaa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.hitech.day14_oopadvanced2.p01polymorphism.demo1.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day14_oopadvanced2.p01polymorphism.demo1.Test" />
+    <configuration name="com.hitech.day15_oopadvanced3.p02interface.demo1.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day15_oopadvanced3.p02interface.demo1.Test" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day14_oopadvanced2.p01polymorphism.demo1.*" />
+          <option name="PATTERN" value="com.hitech.day15_oopadvanced3.p02interface.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.hitech.day14_oopadvanced2.p01polymorphism.demo2.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day14_oopadvanced2.p01polymorphism.demo2.Test" />
+    <configuration name="com.hitech.day15_oopadvanced3.p02interface.demo5.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day15_oopadvanced3.p02interface.demo5.Test" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day14_oopadvanced2.p01polymorphism.demo2.*" />
+          <option name="PATTERN" value="com.hitech.day15_oopadvanced3.p02interface.demo5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.hitech.day14_oopadvanced2.p01polymorphism.demo3.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day14_oopadvanced2.p01polymorphism.demo3.Test" />
+    <configuration name="com.hitech.day15_oopadvanced3.p03innerclass.demo1.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day15_oopadvanced3.p03innerclass.demo1.Test" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day14_oopadvanced2.p01polymorphism.demo3.*" />
+          <option name="PATTERN" value="com.hitech.day15_oopadvanced3.p03innerclass.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Test" />
-        <item itemvalue="应用程序.com.hitech.day14_oopadvanced2.p01polymorphism.demo3.Test" />
-        <item itemvalue="应用程序.com.hitech.day14_oopadvanced2.p01polymorphism.demo2.Test" />
-        <item itemvalue="应用程序.com.hitech.day14_oopadvanced2.p01polymorphism.demo1.Test" />
-        <item itemvalue="应用程序.com.hitech.day13_oopadvanced1.p02_extendsdemo.b03extendsdemo10.Test" />
+        <item itemvalue="应用程序.com.hitech.day15_oopadvanced3.p03innerclass.demo1.Test" />
+        <item itemvalue="应用程序.com.hitech.day15_oopadvanced3.p02interface.aaa.Test" />
+        <item itemvalue="应用程序.com.hitech.day15_oopadvanced3.p02interface.aaa.Test (1)" />
+        <item itemvalue="应用程序.com.hitech.day15_oopadvanced3.p02interface.demo5.Test" />
+        <item itemvalue="应用程序.com.hitech.day15_oopadvanced3.p02interface.demo1.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +226,7 @@
       <workItem from="1684842829823" duration="1956000" />
       <workItem from="1684850243659" duration="2387000" />
       <workItem from="1684889930768" duration="11369000" />
-      <workItem from="1684975066241" duration="8697000" />
+      <workItem from="1684975066241" duration="19576000" />
     </task>
     <task id="LOCAL-00001" summary="first commit：创建JavaSE/JavaWeb/JavaSSM模块">
       <created>1684154283866</created>
@@ -283,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684987598180</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="day14代码: 面向对象进阶2练习-&gt;多态&amp;包&amp;final&amp;权限修饰符&amp;代码块,以及重命名部分包名">
+      <created>1684987943716</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1684987943716</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
