@@ -10,8 +10,7 @@ import java.util.Random;
 
 public class GameJFrame extends JFrame implements KeyListener, ActionListener {
     // 与游戏主界面相关的逻辑写在这里
-    // 创建一个二维数组
-    // 目的：用来管理数据
+    // 创建一个二维数组：用来管理数据
     // 加载图片的时候，会根据二维数组中的数据进行加载
     int[][] data = new int[4][4];
 
@@ -19,7 +18,8 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
     int x = 0;
     int y = 0;
     // 定义变量记录图片路径
-    String path = "Projects\\puzzlegame\\image\\animal\\animal3\\";
+    String path = "Projects\\puzzlegame\\image";
+    String iconPath = path + "\\animal\\animal3\\";
 
     // 定义用于判断胜利的数组win
     int[][] win = {
@@ -30,14 +30,27 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
     };
     // 定义变量统计步数
     int step = 0;
+    String username;
+
+    // 定义random对象用于生成随机数
+    Random r = new Random();
 
     // 创建菜单选项下的功能条目
+    JMenuItem girlItem = new JMenuItem("美女");
+    JMenuItem animalItem = new JMenuItem("动物");
+    JMenuItem sportItem = new JMenuItem("运动");
     JMenuItem replayItem = new JMenuItem("重新游戏");
     JMenuItem reLoginItem = new JMenuItem("重新登录");
     JMenuItem closeItem = new JMenuItem("关闭游戏");
     JMenuItem accountItem = new JMenuItem("公众号");
 
     public GameJFrame() {
+        this(null);
+    }
+
+    public GameJFrame(String username) {
+        this.username = username;
+
         // 初始化界面
         initJFrame();
 
@@ -50,7 +63,7 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
         // 初始化图片
         initImage();
 
-        // 设置界面显示
+        // 设置界面显示, 建议写在最后
         this.setVisible(true);
     }
 
@@ -85,14 +98,18 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
 
         if (victory()) {
             // 显示胜利的图标
-            JLabel winJLabel = new JLabel(new ImageIcon("Projects\\puzzlegame\\image\\win.png"));
+            JLabel winJLabel = new JLabel(new ImageIcon(path + "\\win.png"));
             winJLabel.setBounds(203, 283, 197, 73);
             this.getContentPane().add(winJLabel);
         }
 
+        // 加载当前用户显示
+        JLabel accountJLabel = new JLabel("用户: " + this.username);
+        accountJLabel.setBounds(50, 10, 150, 20);
+        this.getContentPane().add(accountJLabel);
         // 加载计步窗口
         JLabel stepCountJLabel = new JLabel("步数: " + step);
-        stepCountJLabel.setBounds(50, 30, 100, 20);
+        stepCountJLabel.setBounds(50, 30, 150, 20);
         this.getContentPane().add(stepCountJLabel);
 
         // 细节：
@@ -100,7 +117,7 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
         for (int i = 0; i < data.length; i++) {
             for (int j = 0; j < data[i].length; j++) {
                 // 创建一个ImageIcon对象, 并把ImageIcon对象添加到JLabel对象中
-                JLabel jLabel = new JLabel(new ImageIcon(path + data[i][j] + ".jpg"));
+                JLabel jLabel = new JLabel(new ImageIcon(iconPath + data[i][j] + ".jpg"));
                 // 指定图片位置
                 jLabel.setBounds(105 * j + 83, 105 * i + 134, 105, 105);
                 // 给图片添加边框
@@ -113,7 +130,7 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
         }
 
         // 添加背景图片, 创建一个ImageIcon对象, 并把ImageIcon对象添加到JLabel对象中
-        JLabel background = new JLabel(new ImageIcon("Projects\\puzzlegame\\image\\background.png"));
+        JLabel background = new JLabel(new ImageIcon(path + "\\background.png"));
         // 指定图片位置
         background.setBounds(40, 40, 508, 560);
         // 把背景图片添加到当前界面
@@ -129,22 +146,34 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
         // 创建菜单选项列表
         JMenu functionJMenu = new JMenu("功能");
         JMenu aboutUsJMenu = new JMenu("关于我们");
+        JMenu changeImage = new JMenu("更换图片");// 创建更换图片
 
         // 把功能条目添加到菜单选项中
+        // 把美女，动物，运动添加到更换图片当中
+        changeImage.add(girlItem);
+        changeImage.add(animalItem);
+        changeImage.add(sportItem);
+        // 把更换图片，重新游戏，重新登录，关闭游戏添加到功能当中
+        functionJMenu.add(changeImage);
         functionJMenu.add(replayItem);
         functionJMenu.add(reLoginItem);
         functionJMenu.add(closeItem);
+        // 把公众号添加到关于我们当中
         aboutUsJMenu.add(accountItem);
 
+        // 把菜单选项添加到菜单栏中
+        // 把功能，关于我们添加到JMenuBar当中
+        jMenuBar.add(functionJMenu);
+        jMenuBar.add(aboutUsJMenu);
+
         // 功能条目绑定监听事件
+        girlItem.addActionListener(this);
+        animalItem.addActionListener(this);
+        sportItem.addActionListener(this);
         replayItem.addActionListener(this);
         reLoginItem.addActionListener(this);
         closeItem.addActionListener(this);
         accountItem.addActionListener(this);
-
-        // 把菜单选项添加到菜单栏中
-        jMenuBar.add(functionJMenu);
-        jMenuBar.add(aboutUsJMenu);
 
         // 给整个界面设置菜单
         this.setJMenuBar(jMenuBar);
@@ -165,6 +194,50 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
         this.setLayout(null);
         // 设置界面添加键盘监听
         this.addKeyListener(this);
+    }
+
+    private boolean victory() {
+        // 遍历data二维数组,并与win数组进行比较
+        for (int i = 0; i < data.length; i++) {
+            for (int j = 0; j < data[i].length; j++) {
+                if (data[i][j] != win[i][j]) {
+                    // 如果有一个元素不相等,返回false
+                    return false;
+                }
+            }
+        }
+        // 遍历结束,所有元素都相等才放回true
+        return true;
+    }
+
+    private void replay() {
+        // 1.计步器清零
+        step = 0;
+        // 2.重新打乱数字
+        initData();
+        // 3.重新加载图片
+        initImage();
+    }
+
+    private void showDialog() {
+        // 创建弹窗对象
+        JDialog jDialog = new JDialog();
+        // 创建一个管理图片的容器JLabel
+        JLabel jLabel = new JLabel(new ImageIcon(path + "\\about.png"));
+        // 设置位置和宽高
+        jLabel.setBounds(0, 0, 258, 258);
+        // 把图片添加到弹框当中
+        jDialog.getContentPane().add(jLabel);
+        // 给弹框设置大小
+        jDialog.setSize(344, 344);
+        // 让弹框置顶
+        jDialog.setAlwaysOnTop(true);
+        // 让弹窗居中
+        jDialog.setLocationRelativeTo(null);
+        // 弹框不关闭则无法操作下面的界面
+        jDialog.setModal(true);
+        // 让弹框显示出来
+        jDialog.setVisible(true);
     }
 
     @Override
@@ -190,7 +263,7 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
             this.getContentPane().add(allJLabel);
 
             // 加载背景图片
-            JLabel background = new JLabel(new ImageIcon("Projects\\puzzlegame\\image\\background.png"));
+            JLabel background = new JLabel(new ImageIcon(path + "\\background.png"));
             // 指定图片位置
             background.setBounds(40, 40, 508, 560);
             // 把背景图片添加到当前界面
@@ -286,31 +359,12 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
         }
     }
 
-    public boolean victory() {
-        // 遍历data二维数组,并与win数组进行比较
-        for (int i = 0; i < data.length; i++) {
-            for (int j = 0; j < data[i].length; j++) {
-                if (data[i][j] != win[i][j]) {
-                    // 如果有一个元素不相等,返回false
-                    return false;
-                }
-            }
-        }
-        // 遍历结束,所有元素都相等才放回true
-        return true;
-    }
-
     @Override
     public void actionPerformed(ActionEvent e) {
         Object obj = e.getSource();
         if (obj == replayItem) {
             System.out.println("重新游戏");
-            // 1.计步器清零
-            step = 0;
-            // 2.重新打乱数字
-            initData();
-            // 3.重新加载图片
-            initImage();
+            replay();
         } else if (obj == reLoginItem) {
             System.out.println("重新登录");
             // 1.关闭当前的游戏界面
@@ -322,24 +376,25 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
             System.exit(0);
         } else if (obj == accountItem) {
             System.out.println("公众号");
-            // 创建弹窗对象
-            JDialog jDialog = new JDialog();
-            // 创建一个管理图片的容器JLabel
-            JLabel jLabel = new JLabel(new ImageIcon("Projects\\puzzlegame\\image\\about.png"));
-            // 设置位置和宽高
-            jLabel.setBounds(0, 0, 258, 258);
-            // 把图片添加到弹框当中
-            jDialog.getContentPane().add(jLabel);
-            // 给弹框设置大小
-            jDialog.setSize(344, 344);
-            // 让弹框置顶
-            jDialog.setAlwaysOnTop(true);
-            // 让弹窗居中
-            jDialog.setLocationRelativeTo(null);
-            // 弹框不关闭则无法操作下面的界面
-            jDialog.setModal(true);
-            // 让弹框显示出来
-            jDialog.setVisible(true);
+            showDialog();
+        } else if (obj == girlItem) {
+            System.out.println("更换美女图片");
+            // 在13组美女图片中随机更换一组
+            int randomNumber = r.nextInt(13) + 1;
+            iconPath = path + "\\girl\\girl" + randomNumber + "\\";
+            replay();
+        } else if (obj == animalItem) {
+            System.out.println("更换动物图片");
+            // 在8组动物图片中随机更换一组
+            int randomNumber = r.nextInt(8) + 1;
+            iconPath = path + "\\animal\\animal" + randomNumber + "\\";
+            replay();
+        } else if (obj == sportItem) {
+            System.out.println("更换运动图片");
+            // 在10组运动图片中随机更换一组
+            int randomNumber = r.nextInt(10) + 1;
+            iconPath = path + "\\sport\\sport" + randomNumber + "\\";
+            replay();
         }
     }
 }
