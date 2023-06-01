@@ -4,19 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db032fd-a3d8-4d15-a3e9-6cc062877ad2" name="更改" comment=" day21代码: 常用API练习4-&gt;常见查找算法和排序算法">
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day21_api4/p03arrays/ArraysDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day21_api4/p03arrays/ArraysDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day21_api4/p04lambda/LambdaDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day21_api4/p04lambda/LambdaDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day21_api4/p04lambda/LambdaDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day21_api4/p04lambda/LambdaDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day21_api4/p05test/GirlFriend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day21_api4/p05test/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day21_api4/p05test/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day21_api4/p05test/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day21_api4/p05test/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day21_api4/p05test/Test5.java" afterDir="false" />
+    <list default="true" id="3db032fd-a3d8-4d15-a3e9-6cc062877ad2" name="更改" comment=" day21代码: 常用API练习4-&gt;Arrays/Lambda表达式/算法题练习">
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a01mycollection/A01_CollectionDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a01mycollection/A02_CollectionDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a01mycollection/A03_CollectionDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a01mycollection/A04_CollectionDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a01mycollection/A05_CollectionDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a01mycollection/A06_CollectionDemo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a01mycollection/A07_CollectionDemo7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a01mycollection/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a02mylist/A01_ListDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a02mylist/A02_ListDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a02mylist/A03_ListDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a03myarraylist/A01_ArrayListDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a03myarraylist/A02_ArrayListDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a04mygenerics/GenericsDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a04mygenerics/GenericsDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a04mygenerics/GenericsDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a04mygenerics/GenericsDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a04mygenerics/GenericsDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a04mygenerics/GenericsDemo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a04mygenerics/ListUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a04mygenerics/MyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a04mygenerics/MyArrayList2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a04mygenerics/MyArrayList3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a04mygenerics/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a05test/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a05test/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a05test/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a05test/HuskyDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a05test/LiHuaCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a05test/PersianCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a05test/TeddyDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a05test/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/p01collection/A01_CollectionDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/p01collection/A02_CollectionDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/p01collection/A03_CollectionDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/p01collection/A04_CollectionDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/p01collection/A05_CollectionDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/p01collection/A06_CollectionDemo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/p01collection/A07_CollectionDemo7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/p01collection/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/p02list/A01_ListDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/p02list/A02_ListDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/p02list/A03_ListDemo3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,35 +75,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/szl/IdeaProjects/JavaPractice/JavaSE/src/com/hitech/day21_api4/itheima&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "temurin-17",
+    "last_opened_file_path": "C:/Users/szl/IdeaProjects/JavaPractice/JavaSE/src/com/hitech/day22_vessel/p02list",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day22_vessel\p02list" />
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day22_vessel\p01collection" />
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day22_vessel" />
       <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day21_api4\itheima\" />
       <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day21_api4" />
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day20_api3" />
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day19_api2\itheima" />
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day18_api1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day19_api2\" />
@@ -89,13 +120,13 @@
       <recent name="com.hitech.test" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Test5">
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day21_api4.p05test.Test1" />
+  <component name="RunManager" selected="应用程序.A03_CollectionDemo3">
+    <configuration name="A01_CollectionDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day22_vessel.p01collection.A01_CollectionDemo1" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day21_api4.p05test.*" />
+          <option name="PATTERN" value="com.hitech.day22_vessel.p01collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day21_api4.p05test.Test2" />
+    <configuration name="A02_CollectionDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day22_vessel.p01collection.A02_CollectionDemo2" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day21_api4.p05test.*" />
+          <option name="PATTERN" value="com.hitech.day22_vessel.p01collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day21_api4.p05test.Test3" />
+    <configuration name="A03_CollectionDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day22_vessel.p01collection.A03_CollectionDemo3" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day21_api4.p05test.*" />
+          <option name="PATTERN" value="com.hitech.day22_vessel.p01collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.A03_CollectionDemo3" />
+        <item itemvalue="应用程序.A02_CollectionDemo2" />
+        <item itemvalue="应用程序.A01_CollectionDemo1" />
         <item itemvalue="应用程序.Test5" />
         <item itemvalue="应用程序.Test4" />
-        <item itemvalue="应用程序.Test3" />
-        <item itemvalue="应用程序.Test2" />
-        <item itemvalue="应用程序.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +232,8 @@
       <workItem from="1685279921104" duration="1301000" />
       <workItem from="1685323008146" duration="18107000" />
       <workItem from="1685417820572" duration="15551000" />
-      <workItem from="1685496204328" duration="11096000" />
+      <workItem from="1685496204328" duration="11414000" />
+      <workItem from="1685517943022" duration="4459000" />
     </task>
     <task id="LOCAL-00001" summary="first commit：创建JavaSE/JavaWeb/JavaSSM模块">
       <created>1684154283866</created>
@@ -385,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685451006587</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary=" day21代码: 常用API练习4-&gt;Arrays/Lambda表达式/算法题练习">
+      <created>1685514499940</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1685514499941</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +462,8 @@
     <MESSAGE value="阶段小项目练习-&gt;puzzle game:完善更换图片功能和登录界面逻辑" />
     <MESSAGE value=" day19&amp;day20代码: 常用API练习2&amp;3-&gt;正则表达式/时间类/包装类" />
     <MESSAGE value=" day21代码: 常用API练习4-&gt;常见查找算法和排序算法" />
-    <option name="LAST_COMMIT_MESSAGE" value=" day21代码: 常用API练习4-&gt;常见查找算法和排序算法" />
+    <MESSAGE value=" day21代码: 常用API练习4-&gt;Arrays/Lambda表达式/算法题练习" />
+    <option name="LAST_COMMIT_MESSAGE" value=" day21代码: 常用API练习4-&gt;Arrays/Lambda表达式/算法题练习" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
