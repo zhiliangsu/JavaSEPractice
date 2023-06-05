@@ -90,6 +90,15 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
             }
             data[i / 4][i % 4] = tempArr[i];
         }
+
+        // 解法二: 遍历二维数组
+        /* int count = 0;
+        for (int i = 0; i < data.length; i++) {
+            for (int j = 0; j < data[i].length; j++) {
+                data[i][j] = tempArr[count];
+                count++;
+            }
+        } */
     }
 
     private void initImage() {
@@ -258,7 +267,7 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
             this.getContentPane().removeAll();
 
             // 创建JLabel容器加载完整的图片
-            JLabel allJLabel = new JLabel(new ImageIcon(path + "all.jpg"));
+            JLabel allJLabel = new JLabel(new ImageIcon(iconPath + "all.jpg"));
             allJLabel.setBounds(83, 134, 420, 420);
             this.getContentPane().add(allJLabel);
 

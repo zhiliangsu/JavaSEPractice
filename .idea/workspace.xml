@@ -4,94 +4,69 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db032fd-a3d8-4d15-a3e9-6cc062877ad2" name="更改" comment=" day22代码: 集合进阶练习1-&gt;List集合">
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a04mygenerics/GenericsDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a04mygenerics/GenericsDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a04mygenerics/GenericsDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a04mygenerics/GenericsDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a04mygenerics/GenericsDemo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a04mygenerics/GenericsDemo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a04mygenerics/ListUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a04mygenerics/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a04mygenerics/MyArrayList2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a04mygenerics/MyArrayList3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a04mygenerics/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a05test/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a05test/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a05test/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a05test/HuskyDog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a05test/LiHuaCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a05test/PersianCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a05test/TeddyDog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a05test/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a01mycollection/A01_CollectionDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a01mycollection/A02_CollectionDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a01mycollection/A03_CollectionDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a01mycollection/A04_CollectionDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a01mycollection/A05_CollectionDemo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a01mycollection/A06_CollectionDemo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a01mycollection/A07_CollectionDemo7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a01mycollection/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a02mylist/A01_ListDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a02mylist/A02_ListDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a02mylist/A03_ListDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a03myarraylist/A01_ArrayListDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a03myarraylist/A02_ArrayListDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a05myset/A01_SetDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a05myset/A02_HashSetDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a05myset/A03_HashSetDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a05myset/A04_LinkedHashSetDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a05myset/A04_TreeSetDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a05myset/A05_TreeSetDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a05myset/A06_TreeSetDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a05myset/A07_TreeSetDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a05myset/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a05myset/Student2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a05test/Dog.java" afterDir="false" />
+    <list default="true" id="3db032fd-a3d8-4d15-a3e9-6cc062877ad2" name="更改" comment=" day23代码: 集合进阶练习2-&gt;泛型&amp;Set集合&amp;数据结构">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a01mymap/A01_MapDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a01mymap/A02_MapDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a01mymap/A03_MapDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a01mymap/A04_MapDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a02myhashmap/A01_HashMapDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a02myhashmap/A02_HashMapDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a02myhashmap/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a03mylinkedhashmap/A01_LinkedHashMapDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a04mytreemap/A01_TreeMapDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a04mytreemap/A02_TreeMapDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a04mytreemap/A03_TreeMapDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a04mytreemap/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a05source/HashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a05source/TreeMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a06args/ArgsDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a06args/ArgsDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a06args/ArgsDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a06args/ArgsDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a07mycollections/CollectionsDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a07mycollections/CollectionsDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a08test/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a08test/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a08test/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a08test/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a09rollname/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a09rollname/CheatJFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a09rollname/GameJFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/a09rollname/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/doudizhu1/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/doudizhu1/PokerGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/doudizhu2/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/doudizhu2/PokerGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/doudizhu3/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/itheima/doudizhu3/PokerGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/p01mymap/MapDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/p01mymap/MapDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/p01mymap/MapDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/p01mymap/MapDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/p02hashmap/HashMapDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/p02hashmap/HashMapDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/p02hashmap/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/p03linkedhashmap/LinkedHashMapDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/p04treemap/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/p04treemap/TreeMapDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/p04treemap/TreeMapDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day24_map1/p04treemap/TreeMapDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day25_pokergame/doudizhu1/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day25_pokergame/doudizhu1/PokerGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day25_pokergame/doudizhu2/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day25_pokergame/doudizhu2/PokerGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day25_pokergame/doudizhu3/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day25_pokergame/doudizhu3/PokerGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day25_pokergame/p08test/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day25_pokergame/p08test/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day25_pokergame/p08test/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day25_pokergame/p08test/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day25_pokergame/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/pokergame/pokergame.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a01mycollection/A01_CollectionDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a01mycollection/A01_CollectionDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a01mycollection/A02_CollectionDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a01mycollection/A02_CollectionDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a01mycollection/A03_CollectionDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a01mycollection/A03_CollectionDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a01mycollection/A04_CollectionDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a01mycollection/A04_CollectionDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a01mycollection/A05_CollectionDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a01mycollection/A05_CollectionDemo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a01mycollection/A06_CollectionDemo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a01mycollection/A06_CollectionDemo6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a01mycollection/A07_CollectionDemo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a01mycollection/A07_CollectionDemo7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a01mycollection/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a01mycollection/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a02mylist/A01_ListDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a02mylist/A01_ListDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a02mylist/A02_ListDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a02mylist/A02_ListDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a02mylist/A03_ListDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a02mylist/A03_ListDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a03myarraylist/A01_ArrayListDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a03myarraylist/A01_ArrayListDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a03myarraylist/A02_ArrayListDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/itheima/a03myarraylist/A02_ArrayListDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a04mygenerics/GenericsDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a04mygenerics/GenericsDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a04mygenerics/GenericsDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a04mygenerics/GenericsDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a04mygenerics/GenericsDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a04mygenerics/GenericsDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a04mygenerics/GenericsDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a04mygenerics/GenericsDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a04mygenerics/GenericsDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a04mygenerics/GenericsDemo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a04mygenerics/GenericsDemo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a04mygenerics/GenericsDemo6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a04mygenerics/ListUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a04mygenerics/ListUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a04mygenerics/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a04mygenerics/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a04mygenerics/MyArrayList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a04mygenerics/MyArrayList2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a04mygenerics/MyArrayList3.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a04mygenerics/MyArrayList3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a04mygenerics/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a04mygenerics/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a05test/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a05test/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a05test/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a05test/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a05test/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a05test/HuskyDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a05test/HuskyDog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a05test/LiHuaCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a05test/LiHuaCat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a05test/PersianCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a05test/PersianCat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a05test/TeddyDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a05test/TeddyDog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/itheima/a05test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day23_vessel2/itheima/a05test/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/p01collection/A01_CollectionDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/p01collection/A01_CollectionDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/p01collection/A02_CollectionDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/p01collection/A02_CollectionDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/p01collection/A03_CollectionDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/p01collection/A03_CollectionDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/p01collection/A04_CollectionDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/p01collection/A04_CollectionDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/p01collection/A05_CollectionDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/p01collection/A05_CollectionDemo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/p01collection/A06_CollectionDemo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/p01collection/A06_CollectionDemo6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/p01collection/A07_CollectionDemo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/p01collection/A07_CollectionDemo7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/p01collection/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/p01collection/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/p02list/A01_ListDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/p02list/A01_ListDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/p02list/A02_ListDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/p02list/A02_ListDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel/p02list/A03_ListDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day22_vessel1/p02list/A03_ListDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/puzzlegame/src/com/hitech/ui/GameJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/puzzlegame/src/com/hitech/ui/GameJFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +102,7 @@
     "full.screen.before.presentation.mode": "false",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "temurin-17",
-    "last_opened_file_path": "C:/Users/szl/IdeaProjects/JavaPractice/JavaSE/src/com/hitech/day23_vessel2",
+    "last_opened_file_path": "C:/Users/szl/IdeaProjects/JavaPractice/JavaSE/src/com/hitech/day25_pokergame/doudizhu3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -142,11 +117,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day23_vessel2" />
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day22_vessel\p02list" />
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day22_vessel\p01collection" />
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day22_vessel" />
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day21_api4\itheima\" />
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day25_pokergame\doudizhu3" />
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day25_pokergame\doudizhu2" />
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day25_pokergame\" />
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day25_pokergame" />
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day24_map1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day19_api2\" />
@@ -156,20 +131,20 @@
       <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day13_oopadvanced1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hitech.day24_map1.p01mymap" />
       <recent name="com.hitech.day21_api4.p05test" />
       <recent name="com.hitech.day21_api4.p04lambda" />
       <recent name="com.hitech.day21_api4.p02sort" />
       <recent name="com.hitech.day21_api4.p01search" />
-      <recent name="com.hitech.test" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.A03_CollectionDemo3">
-    <configuration name="A01_CollectionDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day22_vessel1.p01collection.A01_CollectionDemo1" />
+  <component name="RunManager" selected="应用程序.com.hitech.day25_pokergame.doudizhu3.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day24_map1.itheima.doudizhu1.App" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day22_vessel1.p01collection.*" />
+          <option name="PATTERN" value="com.hitech.day24_map1.itheima.doudizhu1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A02_CollectionDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day22_vessel1.p01collection.A02_CollectionDemo2" />
+    <configuration name="com.hitech.day24_map1.itheima.doudizhu3.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day24_map1.itheima.doudizhu3.App" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day22_vessel1.p01collection.*" />
+          <option name="PATTERN" value="com.hitech.day24_map1.itheima.doudizhu3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,12 +165,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A03_CollectionDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day22_vessel1.p01collection.A03_CollectionDemo3" />
+    <configuration name="com.hitech.day25_pokergame.doudizhu1.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day25_pokergame.doudizhu1.App" />
+      <module name="JavaSE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.hitech.day25_pokergame.doudizhu2.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day25_pokergame.doudizhu2.App" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day22_vessel1.p01collection.*" />
+          <option name="PATTERN" value="com.hitech.day25_pokergame.doudizhu2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,25 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day21_api4.p05test.Test4" />
+    <configuration name="com.hitech.day25_pokergame.doudizhu3.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day25_pokergame.doudizhu3.App" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day21_api4.p05test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day21_api4.p05test.Test5" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hitech.day21_api4.p05test.*" />
+          <option name="PATTERN" value="com.hitech.day25_pokergame.doudizhu3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.A03_CollectionDemo3" />
-        <item itemvalue="应用程序.A02_CollectionDemo2" />
-        <item itemvalue="应用程序.A01_CollectionDemo1" />
-        <item itemvalue="应用程序.Test5" />
-        <item itemvalue="应用程序.Test4" />
+        <item itemvalue="应用程序.com.hitech.day25_pokergame.doudizhu3.App" />
+        <item itemvalue="应用程序.com.hitech.day24_map1.itheima.doudizhu3.App" />
+        <item itemvalue="应用程序.com.hitech.day25_pokergame.doudizhu2.App" />
+        <item itemvalue="应用程序.com.hitech.day25_pokergame.doudizhu1.App" />
+        <item itemvalue="应用程序.App" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +247,8 @@
       <workItem from="1685496204328" duration="11414000" />
       <workItem from="1685517943022" duration="4459000" />
       <workItem from="1685632196044" duration="123000" />
-      <workItem from="1685670555312" duration="2944000" />
+      <workItem from="1685670555312" duration="3857000" />
+      <workItem from="1685847318898" duration="29951000" />
     </task>
     <task id="LOCAL-00001" summary="first commit：创建JavaSE/JavaWeb/JavaSSM模块">
       <created>1684154283866</created>
@@ -476,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685632262529</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary=" day23代码: 集合进阶练习2-&gt;泛型&amp;Set集合&amp;数据结构">
+      <created>1685695997635</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1685695997635</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +493,8 @@
     <MESSAGE value=" day21代码: 常用API练习4-&gt;常见查找算法和排序算法" />
     <MESSAGE value=" day21代码: 常用API练习4-&gt;Arrays/Lambda表达式/算法题练习" />
     <MESSAGE value=" day22代码: 集合进阶练习1-&gt;List集合" />
-    <option name="LAST_COMMIT_MESSAGE" value=" day22代码: 集合进阶练习1-&gt;List集合" />
+    <MESSAGE value=" day23代码: 集合进阶练习2-&gt;泛型&amp;Set集合&amp;数据结构" />
+    <option name="LAST_COMMIT_MESSAGE" value=" day23代码: 集合进阶练习2-&gt;泛型&amp;Set集合&amp;数据结构" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
