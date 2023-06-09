@@ -4,61 +4,90 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db032fd-a3d8-4d15-a3e9-6cc062877ad2" name="更改" comment=" day27代码: IO练习1-&gt;异常&amp;File&amp;综合案例">
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/a01mybytestream1/ByteStreamDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/a01mybytestream1/ByteStreamDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/a01mybytestream1/ByteStreamDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/a01mybytestream1/ByteStreamDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/a02mybytestream2/ByteStreamDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/a02mybytestream2/ByteStreamDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/a02mybytestream2/ByteStreamDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/a02mybytestream2/ByteStreamDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/a02mybytestream2/ByteStreamDemo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/a02mybytestream2/ByteStreamDemo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/a02mybytestream2/ByteStreamDemo7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/a02mybytestream2/ByteStreamDemo8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/a02mybytestream2/ByteStreamDemo9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/a03mycharset/CharSetDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/a03mycharset/CharSetDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/a03mycharset/CharSetDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/a04mycharstream1/CharStreamDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/a04mycharstream1/CharStreamDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/a04mycharstream1/CharStreamDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/a04mycharstream1/CharStreamDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/a04mycharstream1/CharStreamDemo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/mybufferedstream1/AAA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/mybufferedstream1/BBB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/mybufferedstream1/BufferedStreamDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/mybufferedstream1/BufferedStreamDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/mybufferedstream1/BufferedStreamDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/mybufferedstream1/BufferedStreamDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/mybufferedstream1/CCC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/myconvertstream/ConvertStreamDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/myconvertstream/ConvertStreamDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/myconvertstream/ConvertStreamDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/myconvertstream/ConvertStreamDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/myobjectstream/ObjectStreamDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/myobjectstream/ObjectStreamDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/myobjectstream/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/myobjectstream/WeightRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/mytest/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/mytest/Test02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/mytest/Test03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/mytest/Test04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/mytest/Test05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/mytest/Test06Case01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/mytest/Test06Case02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/itheima/mytest/Test07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/p01bytestream1/ByteStreamDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/p01bytestream1/ByteStreamDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/p01bytestream1/ByteStreamDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/p02bytestream2/ByteStreamDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/p02bytestream2/ByteStreamDemo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/p05test/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/p05test/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/p05test/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day28_io2/p05test/Test4.java" afterDir="false" />
+    <list default="true" id="3db032fd-a3d8-4d15-a3e9-6cc062877ad2" name="更改" comment=" day28代码: IO练习2-&gt;字节流&amp;字符流">
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/count.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/csb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/gbkfile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mybufferedstream1/AAA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mybufferedstream1/BBB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mybufferedstream1/BufferedStreamDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mybufferedstream1/BufferedStreamDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mybufferedstream1/BufferedStreamDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mybufferedstream1/BufferedStreamDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mybufferedstream1/WeightRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mybytestream1/ByteStreamDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mybytestream1/ByteStreamDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mybytestream1/ByteStreamDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mybytestream1/ByteStreamDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mybytestream2/ByteStreamDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mybytestream2/ByteStreamDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mybytestream2/ByteStreamDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mybytestream2/ByteStreamDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mybytestream2/ByteStreamDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mybytestream2/ByteStreamDemo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mybytestream2/ByteStreamDemo7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mybytestream2/ByteStreamDemo8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mybytestream2/ByteStreamDemo9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mycharset/CharSetDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mycharset/CharSetDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mycharset/CharSetDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mycharstream1/CharStreamDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mycharstream1/CharStreamDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mycharstream1/CharStreamDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mycharstream1/CharStreamDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mycharstream1/CharStreamDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mycommonsio/CommonsIODemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/myconvertstream/ConvertStreamDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/myconvertstream/ConvertStreamDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/myconvertstream/ConvertStreamDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/myconvertstream/ConvertStreamDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/myhutool/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/myobjectstream/ObjectStreamDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/myobjectstream/ObjectStreamDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/myobjectstream/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/myprintstream/PrintStreamDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/myprintstream/PrintStreamDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/myprintstream/PrintStreamDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/myprintstream/PrintStreamDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mytest/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mytest/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mytest/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mytest/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mytest/Test04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mytest/Test05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mytest/Test06Case01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mytest/Test06Case02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mytest/Test07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mytest/Test08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/mytest/Test09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/myzipstream/ZipStreamDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/myzipstream/ZipStreamDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/itheima/myzipstream/ZipStreamDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/p01test/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/p01test/Test05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/p01test/Test6Case1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/p01test/Test6Case2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/p01test/Test7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/p01test/Test8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/p01test/Test9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/p02convertstream/ConvertStreamDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/p02convertstream/ConvertStreamDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/p02convertstream/ConvertStreamDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/p02convertstream/CovertStreamDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/p03objectstream/ObjectStreamDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/p03objectstream/ObjectStreamDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/p03objectstream/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/p04printstream/PrintStreamDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/p04printstream/PrintStreamDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/p04printstream/PrintStreamDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/p04printstream/PrintStreamDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/p05zipstream/ZipStreamDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/p05zipstream/ZipStreamDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day29_io3/p05zipstream/ZipStreamDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-io-2.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hutool-all-5.8.10.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,36 +127,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/szl/IdeaProjects/JavaPractice/JavaSE/src/com/hitech/day28_io2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "temurin-17",
+    "last_opened_file_path": "C:/Users/szl/IdeaProjects/JavaPractice/lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Errors",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\lib" />
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day29_io3" />
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day29_io3\p04printstream" />
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day29_io3\" />
       <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day28_io2" />
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech" />
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day27_io1\p05filetest" />
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day27_io1\itheima" />
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day27_io1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day17_puzzlegame2" />
@@ -137,20 +166,20 @@
       <recent name="C:\Users\szl\IdeaProjects\JavaPractice\Projects" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hitech.day29_io3.p05zipstream" />
+      <recent name="com.hitech.day29_io3.p02convertstream" />
+      <recent name="com.hitech.day29_io3.p01test" />
       <recent name="com.hitech.day28_io2.p05test" />
       <recent name="com.hitech.day28_io2.p02bytestream2" />
-      <recent name="com.hitech.day28_io2.p01bytestream1" />
-      <recent name="com.hitech.day26_map2.p04functionquote" />
-      <recent name="com.hitech.day26_map2.p03streamtest" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Test4">
-    <configuration name="ByteStreamDemo6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day28_io2.p02bytestream2.ByteStreamDemo6" />
+  <component name="RunManager" selected="Application.ZipStreamDemo3">
+    <configuration name="PrintStreamDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day29_io3.p04printstream.PrintStreamDemo1" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day28_io2.p02bytestream2.*" />
+          <option name="PATTERN" value="com.hitech.day29_io3.p04printstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +187,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day28_io2.p05test.Test1" />
+    <configuration name="PrintStreamDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day29_io3.p04printstream.PrintStreamDemo2" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day28_io2.p05test.*" />
+          <option name="PATTERN" value="com.hitech.day29_io3.p04printstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +200,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day28_io2.p05test.Test2" />
+    <configuration name="ZipStreamDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day29_io3.p05zipstream.ZipStreamDemo1" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day28_io2.p05test.*" />
+          <option name="PATTERN" value="com.hitech.day29_io3.p05zipstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +213,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day28_io2.p05test.Test3" />
+    <configuration name="ZipStreamDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day29_io3.p05zipstream.ZipStreamDemo2" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day28_io2.p05test.*" />
+          <option name="PATTERN" value="com.hitech.day29_io3.p05zipstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,12 +226,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day28_io2.p05test.Test4" />
+    <configuration name="ZipStreamDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day29_io3.p05zipstream.ZipStreamDemo3" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day28_io2.p05test.*" />
+          <option name="PATTERN" value="com.hitech.day29_io3.p05zipstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Test4" />
-        <item itemvalue="应用程序.Test3" />
-        <item itemvalue="应用程序.Test2" />
-        <item itemvalue="应用程序.Test1" />
-        <item itemvalue="应用程序.ByteStreamDemo6" />
+        <item itemvalue="Application.ZipStreamDemo3" />
+        <item itemvalue="Application.ZipStreamDemo2" />
+        <item itemvalue="Application.ZipStreamDemo1" />
+        <item itemvalue="Application.PrintStreamDemo2" />
+        <item itemvalue="Application.PrintStreamDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +295,12 @@
       <workItem from="1686018689165" duration="21518000" />
       <workItem from="1686097106745" duration="24009000" />
       <workItem from="1686182557579" duration="19411000" />
-      <workItem from="1686218041941" duration="6373000" />
+      <workItem from="1686218041941" duration="6620000" />
+      <workItem from="1686239719280" duration="1196000" />
+      <workItem from="1686274698955" duration="10448000" />
+      <workItem from="1686294411211" duration="114000" />
+      <workItem from="1686294541756" duration="593000" />
+      <workItem from="1686295154458" duration="7871000" />
     </task>
     <task id="LOCAL-00001" summary="first commit：创建JavaSE/JavaWeb/JavaSSM模块">
       <created>1684154283866</created>
@@ -499,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686193886783</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary=" day28代码: IO练习2-&gt;字节流&amp;字符流">
+      <created>1686227701404</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1686227701404</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +558,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day04代码：流程控制语句练习" />
     <MESSAGE value="day05代码：数组和高级循环练习" />
     <MESSAGE value="day06&amp;day07代码：方法练习&amp;综合练习" />
     <MESSAGE value="day08代码：面向对象练习1" />
@@ -542,7 +582,8 @@
     <MESSAGE value="day25代码: 斗地主小游戏练习" />
     <MESSAGE value=" day26代码: 集合进阶练习4-&gt;不可变集合&amp;Stream流&amp;方法引用" />
     <MESSAGE value=" day27代码: IO练习1-&gt;异常&amp;File&amp;综合案例" />
-    <option name="LAST_COMMIT_MESSAGE" value=" day27代码: IO练习1-&gt;异常&amp;File&amp;综合案例" />
+    <MESSAGE value=" day28代码: IO练习2-&gt;字节流&amp;字符流" />
+    <option name="LAST_COMMIT_MESSAGE" value=" day28代码: IO练习2-&gt;字节流&amp;字符流" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
