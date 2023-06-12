@@ -1,5 +1,6 @@
 package com.hitech.ui;
 
+import cn.hutool.core.io.FileUtil;
 import com.hitech.domain.User;
 import com.hitech.util.CodeUtil;
 
@@ -7,21 +8,22 @@ import javax.swing.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.util.ArrayList;
+import java.util.List;
 
 public class LoginJFrame extends JFrame implements MouseListener {
     // 与登录界面有关的逻辑写在这里
     // 创建一个集合存储正确的用户名和密码
-    static ArrayList<User> allUsers = new ArrayList<User>();
+    ArrayList<User> allUsers = new ArrayList<User>();
 
-    // 初始化用户数据
-    static {
+    // 初始化用户数据(不需要了)
+    /* static {
         allUsers.add(new User("zhangsan", "123"));
         allUsers.add(new User("lisi", "1234"));
-    }
+    } */
 
-    // 定义变量记录图片路径
-    String path = "Projects\\puzzlegame\\image";
-    String iconPath = path + "\\login\\";
+    // 定义变量记录项目路径和图片路径
+    static final String projectPath = "C:\\Users\\szl\\IdeaProjects\\JavaPractice\\Projects\\puzzlegame";
+    String loginImagePath = projectPath + "\\image\\login";
 
     // 添加对象
     JTextField username = new JTextField();
@@ -32,6 +34,9 @@ public class LoginJFrame extends JFrame implements MouseListener {
     JButton register = new JButton();
 
     public LoginJFrame() {
+        // 读取本地文件中的用户信息
+        readUserInfo();
+
         // 初始化界面
         initFrame();
 
@@ -42,9 +47,23 @@ public class LoginJFrame extends JFrame implements MouseListener {
         this.setVisible(true);
     }
 
+    // 读取本地文件中的用户信息
+    private void readUserInfo() {
+        // 1.读取数据
+        List<String> userInfoStrList = FileUtil.readUtf8Lines(projectPath + "\\userinfo.txt");
+        // 2.遍历集合获取用户信息并创建User对象
+        for (String str : userInfoStrList) {
+            String[] userInfo = str.split("&");
+            String[] arr1 = userInfo[0].split("=");
+            String[] arr2 = userInfo[1].split("=");
+            allUsers.add(new User(arr1[1], arr2[1]));
+        }
+        System.out.println(allUsers);
+    }
+
     private void initView() {
         // 1.添加用户名文字
-        JLabel usernameText = new JLabel(new ImageIcon(iconPath + "用户名.png"));
+        JLabel usernameText = new JLabel(new ImageIcon(loginImagePath + "\\用户名.png"));
         usernameText.setBounds(116, 135, 51, 19);
         this.getContentPane().add(usernameText);
 
@@ -54,7 +73,7 @@ public class LoginJFrame extends JFrame implements MouseListener {
         this.getContentPane().add(username);
 
         // 3.添加密码文字
-        JLabel passwordText = new JLabel(new ImageIcon(iconPath + "密码.png"));
+        JLabel passwordText = new JLabel(new ImageIcon(loginImagePath + "\\密码.png"));
         passwordText.setBounds(116, 195, 35, 18);
         this.getContentPane().add(passwordText);
 
@@ -65,7 +84,7 @@ public class LoginJFrame extends JFrame implements MouseListener {
         this.getContentPane().add(password);
 
         // 5.添加验证码文字
-        JLabel codeText = new JLabel(new ImageIcon(iconPath + "验证码.png"));
+        JLabel codeText = new JLabel(new ImageIcon(loginImagePath + "\\验证码.png"));
         codeText.setBounds(116, 256, 50, 30);
         this.getContentPane().add(codeText);
 
@@ -85,7 +104,7 @@ public class LoginJFrame extends JFrame implements MouseListener {
         // 8.添加登录按钮
         // JButton login = new JButton();
         login.setBounds(123, 310, 128, 47);
-        login.setIcon(new ImageIcon(iconPath + "登录按钮.png"));
+        login.setIcon(new ImageIcon(loginImagePath + "\\登录按钮.png"));
         login.setBorderPainted(false);// 去除按钮的默认边框
         login.setContentAreaFilled(false);// 去除按钮的默认背景
         login.addMouseListener(this);// 登录按钮添加鼠标监听事件
@@ -94,14 +113,14 @@ public class LoginJFrame extends JFrame implements MouseListener {
         // 9.添加注册按钮
         // JButton register = new JButton();
         register.setBounds(256, 310, 128, 47);
-        register.setIcon(new ImageIcon(iconPath + "注册按钮.png"));
+        register.setIcon(new ImageIcon(loginImagePath + "\\注册按钮.png"));
         register.setBorderPainted(false);// 去除按钮的默认边框
         register.setContentAreaFilled(false);// 去除按钮的默认背景
         register.addMouseListener(this);// 注册按钮添加鼠标监听事件
         this.getContentPane().add(register);
 
         // 10.添加背景图片
-        JLabel background = new JLabel(new ImageIcon(iconPath + "background.png"));
+        JLabel background = new JLabel(new ImageIcon(loginImagePath + "\\background.png"));
         background.setBounds(0, 0, 470, 390);
         this.getContentPane().add(background);
     }
@@ -143,10 +162,10 @@ public class LoginJFrame extends JFrame implements MouseListener {
                 showJDialog("用户名或密码为空");
             } else if (contains(user)) {
                 System.out.println("用户名和密码正确可以开始玩游戏了");
-                //关闭当前登录界面
+                // 关闭当前登录界面
                 this.setVisible(false);
-                //打开游戏的主界面
-                //需要把当前登录的用户名传递给游戏界面
+                // 打开游戏的主界面
+                // 需要把当前登录的用户名传递给游戏界面
                 new GameJFrame(usernameInput);
             } else {
                 showJDialog("用户名或密码错误");
@@ -154,7 +173,7 @@ public class LoginJFrame extends JFrame implements MouseListener {
         } else if (e.getSource() == register) {
             System.out.println("点击了注册按钮");
             this.setVisible(false);// 关闭当前界面
-            new RegisterJFrame();
+            new RegisterJFrame(allUsers);
         } else if (e.getSource() == rightCode) {
             System.out.println("点击了验证码按钮");
             rightCode.setText(CodeUtil.getCode());
@@ -198,9 +217,9 @@ public class LoginJFrame extends JFrame implements MouseListener {
     public void mousePressed(MouseEvent e) {
         System.out.println("鼠标按下不松");
         if (e.getSource() == login) {
-            login.setIcon(new ImageIcon(iconPath + "登录按下.png"));
+            login.setIcon(new ImageIcon(loginImagePath + "\\登录按下.png"));
         } else if (e.getSource() == register) {
-            register.setIcon(new ImageIcon(iconPath + "注册按下.png"));
+            register.setIcon(new ImageIcon(loginImagePath + "\\注册按下.png"));
         }
     }
 
@@ -208,9 +227,9 @@ public class LoginJFrame extends JFrame implements MouseListener {
     public void mouseReleased(MouseEvent e) {
         System.out.println("鼠标松开");
         if (e.getSource() == login) {
-            login.setIcon(new ImageIcon(iconPath + "登录按钮.png"));
+            login.setIcon(new ImageIcon(loginImagePath + "\\登录按钮.png"));
         } else if (e.getSource() == register) {
-            register.setIcon(new ImageIcon(iconPath + "注册按钮.png"));
+            register.setIcon(new ImageIcon(loginImagePath + "\\注册按钮.png"));
         }
     }
 

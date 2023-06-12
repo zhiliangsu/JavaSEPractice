@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="day29_io3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/com/hitech/day29_io3/test.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/hitech/day29_io3/csb.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

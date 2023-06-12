@@ -1,11 +1,16 @@
 package com.hitech.ui;
 
+import cn.hutool.core.io.IoUtil;
+import com.hitech.domain.GameInfo;
+
 import javax.swing.*;
 import javax.swing.border.BevelBorder;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.io.*;
+import java.util.Properties;
 import java.util.Random;
 
 public class GameJFrame extends JFrame implements KeyListener, ActionListener {
@@ -17,9 +22,10 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
     // 定义变量用于记录空白方块的位置
     int x = 0;
     int y = 0;
-    // 定义变量记录图片路径
-    String path = "Projects\\puzzlegame\\image";
-    String iconPath = path + "\\animal\\animal3\\";
+    // 定义变量记录项目路径和图片路径
+    private static final String projectPath = LoginJFrame.projectPath;
+    String imagePath = projectPath + "\\image";
+    String gameImagePath = imagePath + "\\animal\\animal3";
 
     // 定义用于判断胜利的数组win
     int[][] win = {
@@ -42,6 +48,18 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
     JMenuItem replayItem = new JMenuItem("重新游戏");
     JMenuItem reLoginItem = new JMenuItem("重新登录");
     JMenuItem closeItem = new JMenuItem("关闭游戏");
+    JMenu saveJMenu = new JMenu("存档");
+    JMenu loadJMenu = new JMenu("读档");
+    JMenuItem saveItem0 = new JMenuItem("存档0(空)");
+    JMenuItem saveItem1 = new JMenuItem("存档1(空)");
+    JMenuItem saveItem2 = new JMenuItem("存档2(空)");
+    JMenuItem saveItem3 = new JMenuItem("存档3(空)");
+    JMenuItem saveItem4 = new JMenuItem("存档4(空)");
+    JMenuItem loadItem0 = new JMenuItem("读档0(空)");
+    JMenuItem loadItem1 = new JMenuItem("读档1(空)");
+    JMenuItem loadItem2 = new JMenuItem("读档2(空)");
+    JMenuItem loadItem3 = new JMenuItem("读档3(空)");
+    JMenuItem loadItem4 = new JMenuItem("读档4(空)");
     JMenuItem accountItem = new JMenuItem("公众号");
 
     public GameJFrame() {
@@ -107,7 +125,7 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
 
         if (victory()) {
             // 显示胜利的图标
-            JLabel winJLabel = new JLabel(new ImageIcon(path + "\\win.png"));
+            JLabel winJLabel = new JLabel(new ImageIcon(imagePath + "\\win.png"));
             winJLabel.setBounds(203, 283, 197, 73);
             this.getContentPane().add(winJLabel);
         }
@@ -126,7 +144,7 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
         for (int i = 0; i < data.length; i++) {
             for (int j = 0; j < data[i].length; j++) {
                 // 创建一个ImageIcon对象, 并把ImageIcon对象添加到JLabel对象中
-                JLabel jLabel = new JLabel(new ImageIcon(iconPath + data[i][j] + ".jpg"));
+                JLabel jLabel = new JLabel(new ImageIcon(gameImagePath + "\\" + data[i][j] + ".jpg"));
                 // 指定图片位置
                 jLabel.setBounds(105 * j + 83, 105 * i + 134, 105, 105);
                 // 给图片添加边框
@@ -139,7 +157,7 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
         }
 
         // 添加背景图片, 创建一个ImageIcon对象, 并把ImageIcon对象添加到JLabel对象中
-        JLabel background = new JLabel(new ImageIcon(path + "\\background.png"));
+        JLabel background = new JLabel(new ImageIcon(imagePath + "\\background.png"));
         // 指定图片位置
         background.setBounds(40, 40, 508, 560);
         // 把背景图片添加到当前界面
@@ -158,15 +176,29 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
         JMenu changeImage = new JMenu("更换图片");// 创建更换图片
 
         // 把功能条目添加到菜单选项中
+        // 把5个存档，添加到saveJMenu中
+        saveJMenu.add(saveItem0);
+        saveJMenu.add(saveItem1);
+        saveJMenu.add(saveItem2);
+        saveJMenu.add(saveItem3);
+        saveJMenu.add(saveItem4);
+        // 把5个读档，添加到loadJMenu中
+        loadJMenu.add(loadItem0);
+        loadJMenu.add(loadItem1);
+        loadJMenu.add(loadItem2);
+        loadJMenu.add(loadItem3);
+        loadJMenu.add(loadItem4);
         // 把美女，动物，运动添加到更换图片当中
         changeImage.add(girlItem);
         changeImage.add(animalItem);
         changeImage.add(sportItem);
-        // 把更换图片，重新游戏，重新登录，关闭游戏添加到功能当中
+        // 把更换图片，重新游戏，重新登录，关闭游戏，存档，读档添加到功能当中
         functionJMenu.add(changeImage);
         functionJMenu.add(replayItem);
         functionJMenu.add(reLoginItem);
         functionJMenu.add(closeItem);
+        functionJMenu.add(saveJMenu);
+        functionJMenu.add(loadJMenu);
         // 把公众号添加到关于我们当中
         aboutUsJMenu.add(accountItem);
 
@@ -183,9 +215,52 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
         reLoginItem.addActionListener(this);
         closeItem.addActionListener(this);
         accountItem.addActionListener(this);
+        saveItem0.addActionListener(this);
+        saveItem1.addActionListener(this);
+        saveItem2.addActionListener(this);
+        saveItem3.addActionListener(this);
+        saveItem4.addActionListener(this);
+        loadItem0.addActionListener(this);
+        loadItem1.addActionListener(this);
+        loadItem2.addActionListener(this);
+        loadItem3.addActionListener(this);
+        loadItem4.addActionListener(this);
+
+        // 读取存档信息,修改菜单上显示的内容
+        getGameInfo();
 
         // 给整个界面设置菜单
         this.setJMenuBar(jMenuBar);
+    }
+
+    public void getGameInfo() {
+        // 创建File对象表示所有存档所在的文件夹
+        File file = new File(projectPath + "\\save");
+        // 进入文件夹,获取到里面所有的存档文件
+        File[] files = file.listFiles();
+        if (files != null) {
+            // 遍历数组,得到每一个存档
+            for (File f : files) {
+                GameInfo gi;
+                try {
+                    ObjectInputStream ois = new ObjectInputStream(new FileInputStream(f));
+                    gi = (GameInfo) ois.readObject();
+                    ois.close();
+                } catch (IOException | ClassNotFoundException e) {
+                    throw new RuntimeException(e);
+                }
+
+                // 获取每个存档里的步数和用户名
+                int step = gi.getStep();
+                String username = gi.getUsername();
+
+                // 把存档中的步数和用户名同步到菜单当中
+                String name = f.getName();
+                int index = name.charAt(4) - '0';
+                saveJMenu.getItem(index).setText("存档" + index + "(用户: " + username + " 步数: " + step + "步");
+                loadJMenu.getItem(index).setText("读档" + index + "(用户: " + username + " 步数: " + step + "步");
+            }
+        }
     }
 
     private void initJFrame() {
@@ -228,11 +303,11 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
         initImage();
     }
 
-    private void showDialog() {
+    private void showDialog(String content) {
         // 创建弹窗对象
         JDialog jDialog = new JDialog();
         // 创建一个管理图片的容器JLabel
-        JLabel jLabel = new JLabel(new ImageIcon(path + "\\about.png"));
+        JLabel jLabel = new JLabel(new ImageIcon(content));
         // 设置位置和宽高
         jLabel.setBounds(0, 0, 258, 258);
         // 把图片添加到弹框当中
@@ -267,12 +342,12 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
             this.getContentPane().removeAll();
 
             // 创建JLabel容器加载完整的图片
-            JLabel allJLabel = new JLabel(new ImageIcon(iconPath + "all.jpg"));
+            JLabel allJLabel = new JLabel(new ImageIcon(gameImagePath + "\\all.jpg"));
             allJLabel.setBounds(83, 134, 420, 420);
             this.getContentPane().add(allJLabel);
 
             // 加载背景图片
-            JLabel background = new JLabel(new ImageIcon(path + "\\background.png"));
+            JLabel background = new JLabel(new ImageIcon(imagePath + "\\background.png"));
             // 指定图片位置
             background.setBounds(40, 40, 508, 560);
             // 把背景图片添加到当前界面
@@ -385,25 +460,82 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
             System.exit(0);
         } else if (obj == accountItem) {
             System.out.println("公众号");
-            showDialog();
+            String aboutPath = null;
+            aboutPath = loadProperties("account");
+            showDialog(aboutPath);
         } else if (obj == girlItem) {
             System.out.println("更换美女图片");
             // 在13组美女图片中随机更换一组
             int randomNumber = r.nextInt(13) + 1;
-            iconPath = path + "\\girl\\girl" + randomNumber + "\\";
+            gameImagePath = imagePath + "\\girl\\girl" + randomNumber;
             replay();
         } else if (obj == animalItem) {
             System.out.println("更换动物图片");
             // 在8组动物图片中随机更换一组
             int randomNumber = r.nextInt(8) + 1;
-            iconPath = path + "\\animal\\animal" + randomNumber + "\\";
+            gameImagePath = imagePath + "\\animal\\animal" + randomNumber;
             replay();
         } else if (obj == sportItem) {
             System.out.println("更换运动图片");
             // 在10组运动图片中随机更换一组
             int randomNumber = r.nextInt(10) + 1;
-            iconPath = path + "\\sport\\sport" + randomNumber + "\\";
+            gameImagePath = imagePath + "\\sport\\sport" + randomNumber;
             replay();
+        } else if (obj == saveItem0 || obj == saveItem1 || obj == saveItem2 || obj == saveItem3 || obj == saveItem4) {
+            JMenuItem item = (JMenuItem) obj;
+            System.out.println("存档");
+            // 直接把游戏的数据写到本地文件中
+            int index = item.getText().charAt(2) - '0';
+            try {
+                ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(
+                        projectPath + "\\save\\save" + index + ".data"));
+                GameInfo gi = new GameInfo(data, x, y, gameImagePath, step, username);
+                IoUtil.writeObj(oos, true, gi);
+                // oos.writeObject(gi);
+                // oos.close();
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+            // 修改存档item上的展示信息
+            item.setText("存档" + index + "(用户: " + username + " 步数: " + step + "步)");
+            // 修改读档item上的展示信息
+            loadJMenu.getItem(index).setText("读档" + index + "(用户: " + username + " 步数: " + step + "步)");
+        } else if (obj == loadItem0 || obj == loadItem1 || obj == loadItem2 || obj == loadItem3 || obj == loadItem4) {
+            JMenuItem item = (JMenuItem) obj;
+            System.out.println("读档");
+            // 从本地文件读取数据
+            int index = item.getText().charAt(2) - '0';
+            GameInfo gi = null;
+            try {
+                ObjectInputStream ois = new ObjectInputStream(new FileInputStream(
+                        projectPath + "\\save\\save" + index + ".data"));
+                gi = (GameInfo) ois.readObject();
+                ois.close();
+            } catch (IOException | ClassNotFoundException ex) {
+                throw new RuntimeException(ex);
+            }
+
+            data = gi.getData();
+            x = gi.getX();
+            y = gi.getY();
+            gameImagePath = gi.getGameImagePath();
+            step = gi.getStep();
+            username = gi.getUsername();
+
+            // 重新刷新界面加载游戏
+            initImage();
         }
+    }
+
+    private String loadProperties(String key) {
+        Properties prop = new Properties();
+        try {
+            FileInputStream fis = new FileInputStream(projectPath + "\\game.properties");
+            prop.load(fis);
+            fis.close();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        return (String) prop.get(key);
     }
 }
