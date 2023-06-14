@@ -2,33 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64235320-12ec-461a-aad5-ad6afa2dff8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/a.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/itheima/myiotest1/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/itheima/myiotest1/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/itheima/myiotest2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/itheima/myiotest2/allnames.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/itheima/myiotest3/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/itheima/myiotest3/allnames.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/itheima/myiotest4/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/itheima/myiotest4/allnames.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/itheima/myiotest4/count.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/itheima/myiotest5/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/itheima/myiotest5/allnames.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/itheima/myiotest5/backups.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/itheima/myiotest6/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/itheima/myiotest6/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/itheima/myiotest6/names.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/itheima/myiotest7/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/itheima/myiotest7/userinfo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/itheima/myiotest8/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/itheima/myiotest8/userinfo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/itheima/myiotest9/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/itheima/myiotest9/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/itheima/myiotest9/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/p01iotest1/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hitech/day30_io4exercise/p01iotest1/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/a00clientdir/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/a01InetAddressdemo/MyInetAddressDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/a02udpdemo1/ReceiveMessageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/a02udpdemo1/SendMessageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/a03udpdemo2/ReceiveMessageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/a03udpdemo2/SendMessageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/a04udpdemo3/ReceiveMessageDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/a04udpdemo3/ReceiveMessageDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/a04udpdemo3/ReceiveMessageDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/a04udpdemo3/SendMessageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/a05tcpdemo1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/a05tcpdemo1/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/a06tcpdemo2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/a06tcpdemo2/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/a07test1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/a07test1/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/a08test2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/a08test2/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/a09test3/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/a09test3/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a01InetAddressdemo/MyInetAddressDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a02udpdemo1/ReceiveMessageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a02udpdemo1/SendMessageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a03udpdemo2/ReceiveMessageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a03udpdemo2/SendMessageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a04udpdemo3/ReceiveMessageDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a04udpdemo3/ReceiveMessageDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a04udpdemo3/ReceiveMessageDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a04udpdemo3/SendMessageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a05tcpdemo1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a05tcpdemo1/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a06tcpdemo2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a06tcpdemo2/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a07test1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a07test1/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a08test2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a08test2/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a09test3/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a09test3/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a10test4/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a10test4/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a10test4/UUIDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a11test5/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a11test5/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a11test5/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a12test6/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a12test6/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hitech/day33_socketnet/itheima/a12test6/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,17 +65,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/szl/IdeaProjects/JavaPractice/JavaSE",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/szl/IdeaProjects/JavaPractice/JavaSE&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,6 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686538462142</updated>
       <workItem from="1686538463084" duration="80000" />
+      <workItem from="1686737797943" duration="23000" />
     </task>
     <servers />
   </component>

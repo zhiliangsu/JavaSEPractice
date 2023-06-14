@@ -4,52 +4,66 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db032fd-a3d8-4d15-a3e9-6cc062877ad2" name="更改" comment=" day31代码: 多线程练习1">
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/a01threadpool1/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/a01threadpool1/MyThreadPoolDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/a02threadpool2/MyThreadPoolDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/a02threadpool2/MyThreadPoolDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test1/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test1/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test2/MyRunable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test3/MyRunable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test3/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test4case1/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test4case1/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test4case2/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test4case2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test5/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test5/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test6case1/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test6case1/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test6case2/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test6case2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test7/MyCallable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test7/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p01test1/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p01test1/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p02test2/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p02test2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p03test3/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p03test3/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p04test4case1/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p04test4case1/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p04test4case2/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p04test4case2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p05test5/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p05test5/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p06test6case1/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p06test6case1/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p06test6case2/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p06test6case2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p07test7/MyCallable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p07test7/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p08threadpool1/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p08threadpool1/MyThreadPoolDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p09threadpool2/MyThreadPoolDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p09threadpool2/MyThreadPoolDemo2.java" afterDir="false" />
+    <list default="true" id="3db032fd-a3d8-4d15-a3e9-6cc062877ad2" name="更改" comment=" day32代码: 多线程练习2">
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a00clientdir/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a01InetAddressdemo/MyInetAddressDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a02udpdemo1/ReceiveMessageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a02udpdemo1/SendMessageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a03udpdemo2/ReceiveMessageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a03udpdemo2/SendMessageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a04udpdemo3/ReceiveMessageDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a04udpdemo3/ReceiveMessageDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a04udpdemo3/ReceiveMessageDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a04udpdemo3/SendMessageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a05tcpdemo1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a05tcpdemo1/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a06tcpdemo2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a06tcpdemo2/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a07test1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a07test1/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a08test2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a08test2/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a09test3/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a09test3/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a10test4/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a10test4/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a10test4/UUIDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a11test5/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a11test5/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a11test5/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a12test6/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a12test6/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/a12test6/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a01InetAddressdemo/MyInetAddressDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a02udpdemo1/ReceiveMessageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a02udpdemo1/SendMessageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a03udpdemo2/ReceiveMessageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a03udpdemo2/SendMessageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a04udpdemo3/ReceiveMessageDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a04udpdemo3/ReceiveMessageDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a04udpdemo3/ReceiveMessageDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a04udpdemo3/SendMessageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a05tcpdemo1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a05tcpdemo1/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a06tcpdemo2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a06tcpdemo2/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a07test1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a07test1/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a08test2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a08test2/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a09test3/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a09test3/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a10test4/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a10test4/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a10test4/UUIDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a11test5/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a11test5/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a11test5/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a12test6/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a12test6/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day33_socketnet/itheima/a12test6/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +79,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -99,7 +118,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "temurin-17",
-    "last_opened_file_path": "C:/Users/szl/IdeaProjects/JavaPractice/JavaSE/src/com/hitech/day32_thread2/p09threadpool2",
+    "last_opened_file_path": "C:/Users/szl/IdeaProjects/JavaPractice/JavaSE/src/com/hitech/day33_socketnet/a12test6",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -114,11 +133,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day32_thread2\p09threadpool2" />
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day32_thread2\p08threadpool1" />
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day32_thread2\p07test7" />
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day32_thread2\p06test6case2" />
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day32_thread2\p06test6case1" />
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day33_socketnet\a12test6" />
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day33_socketnet\a11test5" />
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day33_socketnet\a10test4" />
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day33_socketnet" />
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day33_socketnet\a03udpdemo2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day30_io4exercise\p03iotest3\" />
@@ -135,13 +154,13 @@
       <recent name="com.hitech.day28_io2.p05test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyThreadPoolDemo2">
-    <configuration name="MyThreadPoolDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day32_thread2.itheima.a02threadpool2.MyThreadPoolDemo2" />
+  <component name="RunManager" selected="Application.Server">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day33_socketnet.a10test4.Client" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day32_thread2.itheima.a02threadpool2.*" />
+          <option name="PATTERN" value="com.hitech.day33_socketnet.a10test4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.hitech.day32_thread2.p05test5.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day32_thread2.p05test5.Test" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day33_socketnet.a07test1.Server" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day32_thread2.p05test5.*" />
+          <option name="PATTERN" value="com.hitech.day33_socketnet.a07test1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.hitech.day32_thread2.p06test6case1.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day32_thread2.p06test6case1.Test" />
+    <configuration name="com.hitech.day33_socketnet.a12test6.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day33_socketnet.a12test6.Client" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day32_thread2.p06test6case1.*" />
+          <option name="PATTERN" value="com.hitech.day33_socketnet.a12test6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,12 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.hitech.day32_thread2.p06test6case2.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day32_thread2.p06test6case2.Test" />
+    <configuration name="com.hitech.day33_socketnet.a12test6.Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day33_socketnet.a12test6.Server" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day32_thread2.p06test6case2.*" />
+          <option name="PATTERN" value="com.hitech.day33_socketnet.a12test6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,12 +207,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.hitech.day32_thread2.p07test7.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day32_thread2.p07test7.Test" />
+    <configuration name="com.hitech.day33_socketnet.itheima.a12test6.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day33_socketnet.itheima.a12test6.Client" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day32_thread2.p07test7.*" />
+          <option name="PATTERN" value="com.hitech.day33_socketnet.itheima.a12test6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,13 +220,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.com.hitech.day33_socketnet.a12test6.Client" />
+      <item itemvalue="Application.com.hitech.day33_socketnet.a12test6.Server" />
+      <item itemvalue="Application.com.hitech.day33_socketnet.itheima.a12test6.Client" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyThreadPoolDemo2" />
-        <item itemvalue="Application.com.hitech.day32_thread2.p07test7.Test" />
-        <item itemvalue="Application.com.hitech.day32_thread2.p06test6case2.Test" />
-        <item itemvalue="Application.com.hitech.day32_thread2.p06test6case1.Test" />
-        <item itemvalue="Application.com.hitech.day32_thread2.p05test5.Test" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.com.hitech.day33_socketnet.a12test6.Client" />
+        <item itemvalue="Application.com.hitech.day33_socketnet.itheima.a12test6.Client" />
+        <item itemvalue="Application.com.hitech.day33_socketnet.a12test6.Server" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +292,7 @@
       <workItem from="1686452490979" duration="909000" />
       <workItem from="1686473776692" duration="1369000" />
       <workItem from="1686529584711" duration="42105000" />
-      <workItem from="1686623614116" duration="29875000" />
+      <workItem from="1686623614116" duration="49892000" />
     </task>
     <task id="LOCAL-00001" summary="first commit：创建JavaSE/JavaWeb/JavaSSM模块">
       <created>1684154283866</created>
@@ -541,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686662387080</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary=" day32代码: 多线程练习2">
+      <created>1686711715367</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1686711715367</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day09_代码：面向对象综合训练" />
     <MESSAGE value="day09代码：面向对象综合训练" />
     <MESSAGE value="重命名部分包名：方便见名知义" />
     <MESSAGE value="day10代码: String字符串练习" />
@@ -584,7 +616,8 @@
     <MESSAGE value=" day29代码: IO练习3-&gt;缓冲流&amp;转换流&amp;序列化流&amp;打印流&amp;压缩流" />
     <MESSAGE value=" day30代码: IO练习4-&gt;阶段综合案例" />
     <MESSAGE value=" day31代码: 多线程练习1" />
-    <option name="LAST_COMMIT_MESSAGE" value=" day31代码: 多线程练习1" />
+    <MESSAGE value=" day32代码: 多线程练习2" />
+    <option name="LAST_COMMIT_MESSAGE" value=" day32代码: 多线程练习2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
