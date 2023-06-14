@@ -4,60 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db032fd-a3d8-4d15-a3e9-6cc062877ad2" name="更改" comment=" day30代码: IO练习4-&gt;阶段综合案例">
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/a01threadcase1/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/a01threadcase1/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/a02threadcase2/MyRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/a02threadcase2/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/a03threadcase3/MyCallable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/a03threadcase3/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/a04threadmethod1/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/a04threadmethod1/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/a09threadsafe1/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/a09threadsafe1/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/a10threadsafe2/MyRunable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/a10threadsafe2/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/a11threadsafe3/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/a11threadsafe3/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/a13waitandnotify/Cook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/a13waitandnotify/Desk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/a13waitandnotify/Foodie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/a13waitandnotify/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/a14waitandnotify/Cook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/a14waitandnotify/Foodie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/a14waitandnotify/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a01threadcase1/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a01threadcase1/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a02threadcase2/MyRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a02threadcase2/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a03threadcase3/MyCallable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a03threadcase3/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a04threadmethod1/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a04threadmethod1/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a05threadmethod2/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a05threadmethod2/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a06threadmethod3/MyThread1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a06threadmethod3/MyThread2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a06threadmethod3/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a07threadmethod4/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a07threadmethod4/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a08threadmethod5/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a08threadmethod5/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a09threadsafe1/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a09threadsafe1/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a10threadsafe2/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a10threadsafe2/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a11threadsafe3/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a11threadsafe3/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a12deadlock/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a12deadlock/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a13waitandnotify/Cook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a13waitandnotify/Desk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a13waitandnotify/Foodie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a13waitandnotify/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a14waitandnotify/Cook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a14waitandnotify/Foodie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day31_thread1/itheima/a14waitandnotify/ThreadDemo.java" afterDir="false" />
+    <list default="true" id="3db032fd-a3d8-4d15-a3e9-6cc062877ad2" name="更改" comment=" day31代码: 多线程练习1">
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/a01threadpool1/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/a01threadpool1/MyThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/a02threadpool2/MyThreadPoolDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/a02threadpool2/MyThreadPoolDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test1/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test2/MyRunable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test3/MyRunable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test3/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test4case1/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test4case1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test4case2/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test4case2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test5/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test5/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test6case1/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test6case1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test6case2/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test6case2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test7/MyCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/itheima/test7/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p01test1/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p01test1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p02test2/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p02test2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p03test3/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p03test3/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p04test4case1/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p04test4case1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p04test4case2/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p04test4case2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p05test5/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p05test5/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p06test6case1/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p06test6case1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p06test6case2/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p06test6case2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p07test7/MyCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p07test7/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p08threadpool1/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p08threadpool1/MyThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p09threadpool2/MyThreadPoolDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day32_thread2/p09threadpool2/MyThreadPoolDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +99,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "temurin-17",
-    "last_opened_file_path": "C:/Users/szl/IdeaProjects/JavaPractice/JavaSE/src/com/hitech/day31_thread1/a11threadsafe3",
+    "last_opened_file_path": "C:/Users/szl/IdeaProjects/JavaPractice/JavaSE/src/com/hitech/day32_thread2/p09threadpool2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -123,11 +114,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day31_thread1\a11threadsafe3" />
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day31_thread1" />
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\Projects\puzzlegame" />
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day30_io4exercise\p09iotest9" />
-      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\Projects\puzzlegame\image" />
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day32_thread2\p09threadpool2" />
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day32_thread2\p08threadpool1" />
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day32_thread2\p07test7" />
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day32_thread2\p06test6case2" />
+      <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day32_thread2\p06test6case1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\szl\IdeaProjects\JavaPractice\JavaSE\src\com\hitech\day30_io4exercise\p03iotest3\" />
@@ -144,13 +135,13 @@
       <recent name="com.hitech.day28_io2.p05test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.hitech.day31_thread1.itheima.a08threadmethod5.ThreadDemo">
-    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day31_thread1.a14waitandnotify.ThreadDemo" />
+  <component name="RunManager" selected="Application.MyThreadPoolDemo2">
+    <configuration name="MyThreadPoolDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day32_thread2.itheima.a02threadpool2.MyThreadPoolDemo2" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day31_thread1.a14waitandnotify.*" />
+          <option name="PATTERN" value="com.hitech.day32_thread2.itheima.a02threadpool2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.hitech.day31_thread1.a11threadsafe3.ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day31_thread1.a11threadsafe3.ThreadDemo" />
+    <configuration name="com.hitech.day32_thread2.p05test5.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day32_thread2.p05test5.Test" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day31_thread1.a11threadsafe3.*" />
+          <option name="PATTERN" value="com.hitech.day32_thread2.p05test5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.hitech.day31_thread1.a13waitandnotify.ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day31_thread1.a13waitandnotify.ThreadDemo" />
+    <configuration name="com.hitech.day32_thread2.p06test6case1.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day32_thread2.p06test6case1.Test" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day31_thread1.a13waitandnotify.*" />
+          <option name="PATTERN" value="com.hitech.day32_thread2.p06test6case1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.hitech.day31_thread1.itheima.a08threadmethod5.ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day31_thread1.itheima.a08threadmethod5.ThreadDemo" />
+    <configuration name="com.hitech.day32_thread2.p06test6case2.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day32_thread2.p06test6case2.Test" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day31_thread1.itheima.a08threadmethod5.*" />
+          <option name="PATTERN" value="com.hitech.day32_thread2.p06test6case2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.hitech.day31_thread1.itheima.a14waitandnotify.ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hitech.day31_thread1.itheima.a14waitandnotify.ThreadDemo" />
+    <configuration name="com.hitech.day32_thread2.p07test7.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hitech.day32_thread2.p07test7.Test" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hitech.day31_thread1.itheima.a14waitandnotify.*" />
+          <option name="PATTERN" value="com.hitech.day32_thread2.p07test7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.hitech.day31_thread1.itheima.a08threadmethod5.ThreadDemo" />
-        <item itemvalue="Application.ThreadDemo" />
-        <item itemvalue="Application.com.hitech.day31_thread1.itheima.a14waitandnotify.ThreadDemo" />
-        <item itemvalue="Application.com.hitech.day31_thread1.a13waitandnotify.ThreadDemo" />
-        <item itemvalue="Application.com.hitech.day31_thread1.a11threadsafe3.ThreadDemo" />
+        <item itemvalue="Application.MyThreadPoolDemo2" />
+        <item itemvalue="Application.com.hitech.day32_thread2.p07test7.Test" />
+        <item itemvalue="Application.com.hitech.day32_thread2.p06test6case2.Test" />
+        <item itemvalue="Application.com.hitech.day32_thread2.p06test6case1.Test" />
+        <item itemvalue="Application.com.hitech.day32_thread2.p05test5.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +266,7 @@
       <workItem from="1686452490979" duration="909000" />
       <workItem from="1686473776692" duration="1369000" />
       <workItem from="1686529584711" duration="42105000" />
-      <workItem from="1686623614116" duration="16482000" />
+      <workItem from="1686623614116" duration="29875000" />
     </task>
     <task id="LOCAL-00001" summary="first commit：创建JavaSE/JavaWeb/JavaSSM模块">
       <created>1684154283866</created>
@@ -543,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686586285660</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary=" day31代码: 多线程练习1">
+      <created>1686662387080</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1686662387080</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,7 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day08代码：面向对象练习1" />
     <MESSAGE value="day09_代码：面向对象综合训练" />
     <MESSAGE value="day09代码：面向对象综合训练" />
     <MESSAGE value="重命名部分包名：方便见名知义" />
@@ -586,7 +583,8 @@
     <MESSAGE value=" day28代码: IO练习2-&gt;字节流&amp;字符流" />
     <MESSAGE value=" day29代码: IO练习3-&gt;缓冲流&amp;转换流&amp;序列化流&amp;打印流&amp;压缩流" />
     <MESSAGE value=" day30代码: IO练习4-&gt;阶段综合案例" />
-    <option name="LAST_COMMIT_MESSAGE" value=" day30代码: IO练习4-&gt;阶段综合案例" />
+    <MESSAGE value=" day31代码: 多线程练习1" />
+    <option name="LAST_COMMIT_MESSAGE" value=" day31代码: 多线程练习1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
