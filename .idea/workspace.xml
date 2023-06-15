@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3db032fd-a3d8-4d15-a3e9-6cc062877ad2" name="更改" comment=" day34代码: 网络编程练习">
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day35_enhance1/itheima/mydynamicproxy1/BigStar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day35_enhance1/itheima/mydynamicproxy1/ProxyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day35_enhance1/itheima/mydynamicproxy1/Star.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day35_enhance1/itheima/mydynamicproxy1/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day35_enhance1/itheima/myreflect1/MyReflectDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day35_enhance1/itheima/myreflect1/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day35_enhance1/itheima/myreflect2/MyReflectDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day35_enhance1/itheima/myreflect2/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day35_enhance1/itheima/myreflect3/MyReflectDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day35_enhance1/itheima/myreflect3/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day35_enhance1/itheima/myreflect4/MyReflectDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day35_enhance1/itheima/myreflect4/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day35_enhance1/itheima/myreflect5/MyReflectDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day35_enhance1/itheima/myreflect5/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day35_enhance1/itheima/myreflect5/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day35_enhance1/itheima/myreflect6/MyReflectDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day35_enhance1/itheima/myreflect6/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/com/hitech/day35_enhance1/itheima/myreflect6/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractice.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -189,10 +171,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.com.hitech.day33_socketnet.a12test6.Client" />
         <item itemvalue="Application.com.hitech.day33_socketnet.itheima.a12test6.Client" />
         <item itemvalue="Application.com.hitech.day33_socketnet.a12test6.Server" />
+        <item itemvalue="Application.com.hitech.day33_socketnet.a12test6.Client" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
@@ -254,6 +236,7 @@
       <workItem from="1686529584711" duration="42105000" />
       <workItem from="1686623614116" duration="52835000" />
       <workItem from="1686813691757" duration="880000" />
+      <workItem from="1686836236212" duration="394000" />
     </task>
     <task id="LOCAL-00001" summary="first commit：创建JavaSE/JavaWeb/JavaSSM模块">
       <created>1684154283866</created>
