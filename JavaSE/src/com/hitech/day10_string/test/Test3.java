@@ -1,5 +1,7 @@
 package com.hitech.day10_string.test;
 
+import java.util.Random;
+
 public class Test3 {
     public static void main(String[] args) {
         //键盘输入任意字符串，打乱里面的内容
@@ -17,6 +19,13 @@ public class Test3 {
         //3.打乱数组里面的内容
         //从0索引开始，跟一个随机索引进行位置的交换
         //当数组里面的每一个元素都跟一个随机索引进行交换完毕之后，那么内容就打乱了
+        Random r = new Random();
+        for (int i = 0; i < arr.length; i++) {
+            char temp = arr[i];
+            int randomIndex = r.nextInt(arr.length);
+            arr[i] = arr[randomIndex];
+            arr[randomIndex] = temp;
+        }
 
         //4.把字符数组再变回字符串
         String result = new String(arr);

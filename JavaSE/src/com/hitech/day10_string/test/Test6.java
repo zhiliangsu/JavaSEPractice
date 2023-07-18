@@ -16,8 +16,21 @@ public class Test6 {
         解释：最后一个单词是长度为6的“joyboy”。*/
 
 
-        //倒着遍历
-        //直到遇到空格为止
-        //那么遍历的次数就是单词的长度
+        // 倒着遍历
+        // 直到遇到空格为止
+        // 那么遍历的次数就是单词的长度
+        // String s = "Hello World";
+        // String s = "   fly me   to   the moon";
+        String s = "luffy is still joyboy";
+
+        char[] chars = s.toCharArray();
+        int count = 0;
+        for (int i = chars.length - 1; i >= 0; i--) {
+            if (chars[i] == ' ') {
+                break;
+            }
+            count++;
+        }
+        System.out.println(count);
     }
 }
